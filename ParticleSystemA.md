@@ -116,7 +116,7 @@ $$
 \vec{w} ~~=~~ \vec{u} \times \vec{v}
 $$
 
-ouais
+.
 
 $$ 
 p' ~~=~~ v_0 + u \, \vec{u} + v \, \vec{v} + w \, \vec{w}
@@ -131,13 +131,14 @@ $\vec{w}$ in shown but not necessary on this system because we assert particle i
 
 ### 3 Calculating $u$ and $v$
 They require two "helpers": $\vec{p}$ and $o$ (below $p$ is the particle's global position)
+
 $$
 \vec{p} = p - v_0
 \quad;\quad
 o = \vec{u} \cdot ( \vec{v} \times \vec{w})
 $$
 
-ouais
+.
 
 $$
 u = \frac{\vec{p} \cdot ( \vec{v} \times \vec{w})}{o}
