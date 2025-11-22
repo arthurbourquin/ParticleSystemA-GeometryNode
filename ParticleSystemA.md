@@ -112,16 +112,15 @@ $$
 \vec{u} ~~=~~ \overrightarrow{v_0 \, v_1} ~~=~~ v_1 - v_0
 \quad;\quad
 \vec{v} ~~=~~ \overrightarrow{v_0 \, v_2} ~~=~~ v_2 - v_0 
-\gray{\quad;\quad
+\quad;\quad
 \vec{w} ~~=~~ \vec{u} \times \vec{v}
-}
 $$
-
+.
 $$ 
-p' ~~=~~ v_0 + u \, \vec{u} + v \, \vec{v} \gray{+ w \, \vec{w}} 
+p' ~~=~~ v_0 + u \, \vec{u} + v \, \vec{v} + w \, \vec{w}
 $$
 
-$\vec{w}$ in gray is shown but not necessary on this system because we assert particle is *on* the triangle, so there is no local height. $w$ will allways be $0$.
+$\vec{w}$ in shown but not necessary on this system because we assert particle is *on* the triangle, so there is no local height. $w$ will allways be $0$.
 
 
 ### 2.1 Get face index and vertices of this face
@@ -140,9 +139,8 @@ $$
 u = \frac{\vec{p} \cdot ( \vec{v} \times \vec{w})}{o}
 \quad;\quad
 v = \frac{\vec{p} \cdot ( \vec{w} \times \vec{u})}{o}
-\gray{\quad;\quad
+\quad;\quad
 w = \frac{\vec{p} \cdot ( \vec{u} \times \vec{v})}{o}
-}
 $$
 
 ![img](img/SolveLocal.png)
@@ -161,7 +159,7 @@ Calculate $\vec{u}$, $\vec{v}$, ($\vec{w}$)
 Calculate global coordinate with:  
 
 $$
-p = v_0 + u \, \vec{u} + v \, \vec{v} \gray{+ w \, \vec{w}}
+p = v_0 + u \, \vec{u} + v \, \vec{v} + w \, \vec{w}
 $$
 
 ![img](img/GlobalPos.png)
