@@ -116,7 +116,7 @@ $$
 \vec{w} ~~=~~ \vec{u} \times \vec{v}
 $$
 
-&nbsp;
+o
 
 $$ 
 p' ~~=~~ v_0 + u \, \vec{u} + v \, \vec{v} + w \, \vec{w}
@@ -137,7 +137,7 @@ $$
 o = \vec{u} \cdot ( \vec{v} \times \vec{w})
 $$
 
-&nbsp;
+o
 
 $$
 u = \frac{\vec{p} \cdot ( \vec{v} \times \vec{w})}{o}
