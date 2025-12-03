@@ -25,6 +25,16 @@ General overview of the node tree. Be aware that the last version is not exactel
 - **Subframe** count and **framerate** **don't change overall behaviour** ; increasing subframe doesn't make particles faster or slower, or following different paths
 - **Keyframe iterpolations are linear**
 
+### Maths behind system
+
+$ dt = r \cdot s \quad;\quad r = \text{scene framerate}, s = \text{subsampling} $  
+
+$ p' = p + v \, dt + \frac{1}{2} \sum^{\text{fields}} dt^2 $  
+
+$ v' = v + \sum^{\text{fields}} dt $  
+
+
+
 <hr>
 
 
