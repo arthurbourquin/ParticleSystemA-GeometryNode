@@ -1,5 +1,5 @@
 # Particle System A
-**Version:** v1.1.2
+**Version:** v1.1.3
 
 Elementary particle system for Blender Geometry Nodes, supporting sub-frame integration, fields, mesh collisions, and deterministic behaviour.
 
@@ -10,7 +10,7 @@ Elementary particle system for Blender Geometry Nodes, supporting sub-frame inte
 ![Preview](img/Cactus.png)
 Don't ask why a cactus.
 
-![Full Node Tree](img/ParticleSystemA_FullTree_v1-1-2_small.png)
+![Full Node Tree](img/ParticleSystemA_FullTree_v1-1-3.png)
 General overview of the node tree. Note: last version may differ.
 
 ---
@@ -29,6 +29,7 @@ General overview of the node tree. Note: last version may differ.
 
 ## Changelog
 
+**v1.1.3** - Moved the computation of collided particles outside the Repeat Zone, significantly reducing processing cost and improving overall performance.  
 **v1.1.2** – Whole node tree update, same visual behaviour, more accurate maths in documentation  
 **unamed** – Initial release
 
