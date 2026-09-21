@@ -15,17 +15,18 @@ This document explains the inner workings of the particle system, maths, and com
 
 ### Maths behind system
 
-$$
-\text{particle position } p \quad 
-\text{particle velocity } v \quad 
-\text{duration between two steps } dt 
-$$
 
-$$ dt = r \cdot s \quad;\quad r = \text{scene framerate}, s = \text{subsampling} $$
+particle position &nbsp; ${p}$ , &nbsp;
+particle velocity &nbsp; ${v}$ , &nbsp;
+duration between two stepy &nbsp; ${dt}$
 
-$$ p' = p + v \, dt + \frac{1}{2} \sum^{\text{fields}} dt^2 $$
+${dt = r \cdot s}$ , &nbsp;
+${r = \text{scene framerate}}$ , &nbsp;
+${s = \text{subsampling}}$
 
-$$ v' = v + \sum^{\text{fields}} dt $$
+${p' = p + v \, dt + \frac{1}{2} \sum^{\text{fields}} dt^2}$
+
+${v' = v + \sum^{\text{fields}} dt}$
 
 
 ---
