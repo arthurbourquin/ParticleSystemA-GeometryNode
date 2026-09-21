@@ -24,7 +24,7 @@ ${dt = r \cdot s}$ , &nbsp;
 ${r = \text{scene framerate}}$ , &nbsp;
 ${s = \text{subsampling}}$
 
-${p' = p + v \, dt + \frac{1}{2} \sum^{\text{fields}} dt^2}$
+${p' = p + v + \frac{1}{2} \sum^{\text{fields}} dt^2}$
 
 ${v' = v + \sum^{\text{fields}} dt}$
 
